@@ -1,3 +1,7 @@
+//Time Complexity 
+//Best case:O(n²)
+//Avg. case:O(n²)
+//Worst case:O(n²)
 #include<iostream>
 using namespace std;
 
@@ -11,7 +15,7 @@ void bubble_sort(int A[],int n)
         {
             if( A[ j ] > A[ j + 1 ] )
             {
-                temp = A[ j ];
+                temp = A[ j ];            //Swapping two number.
                 A[ j ] = A[ j + 1 ];
                 A[ j + 1 ] = temp;
             }
