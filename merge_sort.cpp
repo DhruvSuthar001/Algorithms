@@ -1,7 +1,11 @@
+//Time Complexity 
+//Best case:o(nlogn)
+//Avg. case:o(nlogn)
+//Worst case:o(nlogn)
+
 #include<iostream>
 using namespace std;
-
-// for merging two array 
+//here we are going to create a function that mergs two array 
 void merge(int arr[], int left, int mid, int right)
 {
     int temp[100];
