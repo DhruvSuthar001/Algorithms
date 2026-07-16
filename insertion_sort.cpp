@@ -1,6 +1,9 @@
+//Best Case (already sorted)->O(n)	
+//Average Case->O(n²)	
+//Worst Case (reverse sorted)->O(n²)
 #include<iostream>
 using namespace std;
-
+//main algorithm for performing insertion sort 
 void insertion_sort(int A[],int n)
 {
     int i,j,key;
